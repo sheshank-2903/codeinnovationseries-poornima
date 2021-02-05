@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".login_third">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="280dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_local_library_black_24dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1.6"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1.6"
+            android:text="select your all(extremely hard) theory subjects"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:orientation="vertical"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="match_parent">
+        <CheckBox
+            android:layout_weight="1"
+            android:text="Engg Maths-I"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+            <CheckBox
+                android:layout_weight="1"
+                android:text="Engg chem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <CheckBox
+                android:layout_weight="1"
+                android:text="Human Values"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <CheckBox
+                android:layout_weight="1"
+                android:text="BME"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <CheckBox
+                android:layout_weight="1"
+                android:text="BCE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <CheckBox
+                android:layout_weight="1"
+                android:text="Engg Maths- II"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <CheckBox
+                android:layout_weight="1"
+                android:text="BEE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <CheckBox
+                android:layout_weight="1"
+                android:text="Communication English"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <CheckBox
+                android:layout_weight="1"
+                android:text="Engg Physics"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <CheckBox
+                android:layout_weight="1"
+                android:text="PPS"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/next"
+            android:layout_gravity="bottom"
+            android:clickable="true"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+        <TextView
+            android:textColor="@color/cardview_shadow_start_color"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:text="(This is last one trust me...)"/>
+    </LinearLayout>
+</LinearLayout>
